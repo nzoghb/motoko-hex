@@ -28,7 +28,7 @@ module {
    * Define a type to indicate that the decoder has failed.
    */
   public type DecodeError = {
-    #message : Text;
+    #msg : Text;
   };
 
   /**
@@ -65,7 +65,7 @@ module {
             });
           });
         }),
-        #err (#message "Not enough input!"),
+        #err (#msg "Not enough input!"),
       );
     };
     var i = 0;
@@ -94,7 +94,7 @@ module {
         return #ok (Prim.natToWord8(i));
       };
     };
-    let msg = "Unexpected character: " # Prim.charToText(char);
-    #err (#message msg);
+    let str = "Unexpected character: " # Prim.charToText(char);
+    #err (#msg str);
   };
 };
