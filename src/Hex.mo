@@ -1,5 +1,5 @@
 /**
- * Module      : hex.mo
+ * Module      : Hex.mo
  * Description : Hexadecimal encoding and decoding routines.
  * Copyright   : 2020 Enzo Haussecker
  * License     : Apache 2.0 with LLVM Exception
@@ -7,11 +7,11 @@
  * Stability   : Stable
  */
 
-import Array "mo:stdlib/array";
-import Iter "mo:stdlib/iter";
-import Option "mo:stdlib/option";
+import Array "mo:base/Array";
+import Iter "mo:base/Iter";
+import Option "mo:base/Option";
 import Prim "mo:prim";
-import Result "mo:stdlib/result";
+import Result "mo:base/Result";
 
 module {
 
