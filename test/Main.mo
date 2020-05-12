@@ -1,5 +1,5 @@
 /**
- * Module      : main.mo
+ * Module      : Main.mo
  * Description : Unit tests.
  * Copyright   : 2020 DFINITY Stiftung
  * License     : Apache 2.0 with LLVM Exception
@@ -7,9 +7,9 @@
  * Stability   : Stable
  */
 
-import Array "mo:stdlib/array";
-import Hex "../src/hex";
-import Result "mo:stdlib/result";
+import Array "mo:base/Array";
+import Hex "../src/Hex";
+import Result "mo:base/Result";
 
 actor {
 
