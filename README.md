@@ -1,11 +1,13 @@
 ## The Hex Package
 
-[![Build Status](https://travis-ci.org/enzoh/motoko-hex.svg?branch=master)](https://travis-ci.org/enzoh/motoko-hex?branch=master)
+[![Build Status](https://github.com/enzoh/motoko-hex/workflows/build/badge.svg)](https://github.com/enzoh/motoko-hex/actions?query=workflow%3Abuild)
 
-### Overview
+This package implements hexadecimal encoding and decoding routines for the Motoko programming language.
 
-This package implements hexadecimal encoding and decoding routines for the
-Motoko programming language.
+### Prerequisites
+
+- [DFINITY SDK](https://sdk.dfinity.org/docs/download.html) v0.5.11
+- [Vessel](https://github.com/kritzcreek/vessel/releases/tag/v0.4.1) v0.4.1 (Optional)
 
 ### Usage
 

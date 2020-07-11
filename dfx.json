@@ -3,5 +3,10 @@
     "test": {
       "main": "test/Main.mo"
     }
+  },
+  "defaults": {
+    "start": {
+      "address": "127.0.0.1"
+    }
   }
 }
