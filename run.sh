@@ -6,12 +6,12 @@ echo == Build.
 echo
 
 dfx start --background
-dfx canister create --all
+dfx canister create test
 dfx build
 
 echo
 echo == Test.
 echo
 
-dfx canister install --all
+dfx canister install test
 dfx canister call test run

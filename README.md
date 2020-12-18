@@ -6,8 +6,7 @@ This package implements hexadecimal encoding and decoding routines for the Motok
 
 ### Prerequisites
 
-- [DFINITY SDK](https://sdk.dfinity.org/docs/download.html) v0.5.11
-- [Vessel](https://github.com/kritzcreek/vessel/releases/tag/v0.4.1) v0.4.1 (Optional)
+- [DFINITY SDK](https://sdk.dfinity.org/docs/download.html) v0.6.16
 
 ### Usage
 

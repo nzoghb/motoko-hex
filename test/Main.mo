@@ -9,6 +9,7 @@
 
 import Array "mo:base/Array";
 import Hex "../src/Hex";
+import Prelude "mo:base/Prelude";
 import Result "mo:base/Result";
 
 actor {
@@ -20,7 +21,10 @@ actor {
   };
 
   private func unwrap(result : Result<[Word8], Hex.DecodeError>) : [Word8] {
-    Result.unwrapOk<[Word8], Hex.DecodeError>(result);
+    switch (result) {
+      case (#ok blob) blob;
+      case (#err err) Prelude.unreachable();
+    }
   };
 
   public func run() {
